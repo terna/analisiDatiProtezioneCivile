@@ -1,0 +1,47 @@
+cambiamenti in analisiDati_DD_stefano_pietro.ipynb
+
+------------------------------------------------
+
+Why `casi_da_sospetto_diagnistico` is not monotonic, if it is a cumulative value?
+
+L'avevo pensato e tu l'hai verificato per tutti i valori, hanno cambiato la classificazione.
+
+In altre regioni no, es. Lombardia.
+
+La scritta è diventata:
+A test if casi_da_sospetto_diagnostico is not monotonic, despite being a cumulative value
+
+e sotto
+
+In case of not monotonicity, this shows that **some cases have been gradually moved** from `casi_da_sospetto_diagnostico` to `casi_da_screening'.
+
+------------------------------------------------
+
+ho chiamato 
+
+Figure 1.1b-c, the meaning of casi_da_screening_diff14days
+
+quello che era
+
+The meaning of casi_da_screening_diff14days
+
+con title
+Figure 1.1b, a 14 days flow and a daily stock
+
+e poi con title
+Figure 1.1c, a 28 days flow and a daily stock
+
+
+visto come Piemonte per il Veneto, la Lombardia invece è bizzarra.
+
+
+Ho cambiato Much much better! in Very good result
+------------------------------------------------
+
+Sospendo perché sono troppo stanco e farei pasticci.
+
+
+INTANTO POTREI METTERE ONLINE analisiDati_DD.ipynb
+ripulito dai typos
+
+
