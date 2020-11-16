@@ -1,20 +1,24 @@
 
 Back to basics :-)
 
-Esistono solo fondi (stocks) e flussi. I primi sono misurati a una certa data, i secondi tra due date.
+Esistono solo fondi (stock) e flussi. I primi sono misurati a una certa data, i secondi tra due date.
 
-20xx indica la fine di ogni anno, per x=1,2,...,20
+20(xx) indica la fine di ogni anno, per xx=00,01,...,20
 
-La grandezza n20xx ha input e non output, es. i nati in Italia dal 1.1.2000 alla fine dell'anno 20xx. Supponiamo che gli addendi siano due: nati al Nord e nati al Centro-Sud, nN20xx e nS20xx. 
+La grandezza n20(xx) ha input e non output, es. i nati in Italia dal 1.1.2000 alla fine dell'anno 20(xx). Supponiamo che gli addendi siano due: nati al Nord e nati al Centro-Sud, nN20(xx) e nS20(xx), con (xx)=01,02,...,20.
 
-nN20xx misura i nati al Nord dal 1.1.2000 al 31.12.20xx e
-nS20xx misura i nati al CentroSud dal 1.1.2000 al 31.12.20xx.
+nN20(xx) misura i nati al Nord dal 1.1.2000 al 31.12.20(xx) e
+nS20(xx) misura i nati al CentroSud dal 1.1.2000 al 31.12.20(xx).
 
-n20xx, nN20xx e nS20xx sono dei FLUSSI in quanto misurati tra due date.
+n20(xx), nN20(xx) e nS20(xx) sono dei FLUSSI in quanto misurati tra due date.
 
+-----
 
+La grandezza p20(xx) è misurata da una rilevazione in un dato istante, es. la popolazione alle fine dell'anno 20(xx); rispetto alla misurazione precedente (xx-1) ha due input (nN20(xx-1),20(xx), i nati al Nord nel 20(xx); nS20(xx-1),20(xx), i nati al CentroSud nel 20(xx)) e un output (m20(xx-1),20(xx), i morti nel 20(xx)).
 
-Un altro fenomeno G20xx è misurato da una rilevazione in un dato istante, la popolazione alle fine di ogni anno; ha un input (Gn20xx, i nati nel 20xx) e un output (Gm20xx, i morti nel 20xx).
+p20(xx) = p20(xx-1) + nN20xx-1,20xx + nN20xx-1,20xx - m20(xx-1),20(xx)
 
+p20(xx) e p20(xx-1) sono degli STOCK.
 
+nN20xx-1,20xx, nN20xx-1,20xx e m20(xx-1),20(xx) sono dei FLUSSI.
 
