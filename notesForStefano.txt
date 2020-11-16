@@ -38,10 +38,33 @@ visto come Piemonte per il Veneto, la Lombardia invece è bizzarra.
 Ho cambiato Much much better! in Very good result
 ------------------------------------------------
 
-Sospendo perché sono troppo stanco e farei pasticci.
-
-
 INTANTO POTREI METTERE ONLINE analisiDati_DD.ipynb
 ripulito dai typos
+
+------------------------------------------------
+
+Stefano scrive
+
+But for now, let's take DT=28 as the time delta that we can use to obtain a good approximation of a daily stock, starting from a cumulative one:
+
+daily_stock(totale_casi, t) == totale_positivi(t)
+
+daily_stock(totale_casi, t) ~ totale_casi(t) - totale_casi(t - DT)
+
+Hence: totale_positivi(t) ~ totale_casi(t) - totale_casi(t - DT)
+
+Now we can yse this approximation to compute the daily stock from other cumulatives, e.g. the casi_da_sospetto_diagnostico, for which the daily stock is unavailable in the raw data:
+
+Hence:
+
+totale_positivi_da_sospetto_diagnostico(t) ~ 
+    casi_da_sospetto_diagnostico(t) - casi_da_sospetto_diagnostico(t - DT)
+
+---
+
+Pietro scriverebbe
+
+
+
 
 
