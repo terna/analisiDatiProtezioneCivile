@@ -5,7 +5,7 @@ Esistono solo fondi (stocks) e flussi. I primi sono misurati a una certa data, i
 
 20xx indica la fine di ogni anno, per x=1,2,...,20
 
-Un fenomeno n20xx è misurato da una grandezza che ha input e non output, es. i nati in Italia dal 1.1.2000 alla fine di ogni anno 20xx. Supponiamo che gli addendi siano due: nati al Nord e nati al Centro-Sud, nN20xx e nS20xx. 
+La grandezza n20xx è ha input e non output, es. i nati in Italia dal 1.1.2000 alla fine dell'anno 20xx. Supponiamo che gli addendi siano due: nati al Nord e nati al Centro-Sud, nN20xx e nS20xx. 
 
 nN20xx misura i nati al Nord dal 1.1.2000 al 31.12.20xx e
 nS20xx misura i nati al CentroSud dal 1.1.2000 al 31.12.20xx.
@@ -13,7 +13,6 @@ nS20xx misura i nati al CentroSud dal 1.1.2000 al 31.12.20xx.
 n20xx, nN20xx e nS20xx sono dei FLUSSI in quanto misurati tra due date.
 
 
-È misurato tra due date
 
 Un altro fenomeno G20xx è misurato da una rilevazione in un dato istante, la popolazione alle fine di ogni anno; ha un input (Gn20xx, i nati nel 20xx) e un output (Gm20xx, i morti nel 20xx).
 
