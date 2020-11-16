@@ -5,7 +5,7 @@ Esistono solo fondi (stocks) e flussi. I primi sono misurati a una certa data, i
 
 20xx indica la fine di ogni anno, per x=1,2,...,20
 
-La grandezza n20xx è ha input e non output, es. i nati in Italia dal 1.1.2000 alla fine dell'anno 20xx. Supponiamo che gli addendi siano due: nati al Nord e nati al Centro-Sud, nN20xx e nS20xx. 
+La grandezza n20xx ha input e non output, es. i nati in Italia dal 1.1.2000 alla fine dell'anno 20xx. Supponiamo che gli addendi siano due: nati al Nord e nati al Centro-Sud, nN20xx e nS20xx. 
 
 nN20xx misura i nati al Nord dal 1.1.2000 al 31.12.20xx e
 nS20xx misura i nati al CentroSud dal 1.1.2000 al 31.12.20xx.
