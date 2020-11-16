@@ -22,3 +22,5 @@ p20(xx) e p20(xx-1) sono degli STOCK.
 
 nN20xx-1,20xx, nN20xx-1,20xx e m20(xx-1),20(xx) sono dei FLUSSI.
 
+-----
+
