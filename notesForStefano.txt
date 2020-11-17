@@ -38,7 +38,7 @@ visto come Piemonte per il Veneto, la Lombardia invece è bizzarra.
 Ho cambiato Much much better! in Very good result
 ------------------------------------------------
 
-INTANTO POTREI METTERE ONLINE analisiDati_DD.ipynb
+INTANTO HO MESSO IN https://terna.to.it/datiProtezioneCivile.html il link a analisiDati_DD.ipynb
 ripulito dai typos
 
 ------------------------------------------------
@@ -67,7 +67,19 @@ totale_positivi_da_sospetto_diagnostico(t) ~
 
 Pietro scriverebbe
 
+But for now, let's take DT=28 as the time delta that we can use to obtain a good approximation of a daily stock, starting from a flow.
 
+We have
+totale_casi[t-DT,t] = totale_casi[1,t] - totale_casi[1,t-DT]
 
+As seen in the data
+totale_casi[t-DT,t] is close to totale_positivi(t)
 
+Hence: totale_positivi(t) = totale_casi[1,t] - totale_casi[1,t-DT]
 
+Now we can use this approximation to compute the daily stock from other flows, e.g., the casi_da_sospetto_diagnostico, for which the daily stock is unavailable in the raw dat
+
+Hence:
+
+totale_positivi_da_sospetto_diagnostico(t) ~ 
+    casi_da_sospetto_diagnostico(t) - casi_da_sospetto_diagnostico(t - DT)
