@@ -43,6 +43,9 @@ ripulito dai typos
 
 ------------------------------------------------
 
+ho modificato le spiegazioni dei nomi dei campi, con solo flow e stok, in tutti i file, vedi reasoningOfStocksAndFlows.txt
+------------------------------------------------
+
 Stefano scrive
 
 But for now, let's take DT=28 as the time delta that we can use to obtain a good approximation of a daily stock, starting from a cumulative one:
