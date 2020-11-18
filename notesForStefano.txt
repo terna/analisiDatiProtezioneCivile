@@ -92,7 +92,7 @@ where it is plausible that
 - totale_positivi(t-DT) + dimessi_guariti[t-DT,t] + deceduti(t-DT,t] is close to 0
 (in DT days positive persons at t-DT become dimessi_guariti or deceduti)
 
-so totale_casi[t-DT,t] is close to totale_positivi(t) !!!
+so totale_casi[t-DT,t] is close to totale_positivi(t), with some overlapping !!!
 
 
 
